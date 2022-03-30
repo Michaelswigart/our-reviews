@@ -1,20 +1,34 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .countainer {
-    display: grid;
-    box-sizing: border-box;
-    justify-items: center;
-    line-height: 21px;
-    margin: 0px 0px 0px 0px;
-    min-height: 160px;
-    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+h2 {
+    font-size: 2.5em;
+    border: 2px;
+ border-style: solid;
+ border-color: black;
 }
 
 #person {
    border: rebeccapurple solid;
     border-radius: 50% 50% 50% 50%;
-    
+ 
 }
 
 .button-container {
- 
+ background-color: white;
+ color: white;
+ border: 2px;
+ border-style: solid;
+ border-color: black;
 }
