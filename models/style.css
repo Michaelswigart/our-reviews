@@ -1,4 +1,20 @@
 
 .countainer {
-    display: flex;
+    display: grid;
+    box-sizing: border-box;
+    justify-items: center;
+    line-height: 21px;
+    margin: 0px 0px 0px 0px;
+    min-height: 160px;
+    padding: 0px 0px 0px 0px;
+}
+
+#person {
+   border: rebeccapurple solid;
+    border-radius: 50% 50% 50% 50%;
+    
+}
+
+.button-container {
+ 
 }
